@@ -10,9 +10,14 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combo_layer {
-            timeout-ms = <50>;
-            key-positions = <16 17>;
+        combo_layer_l {
+            timeout-ms = <75>;
+            key-positions = <15 16>;
+            bindings = <&mo 1>;
+        };
+        combo_layer_r {
+            timeout-ms = <75>;
+            key-positions = <19 20>;
             bindings = <&mo 1>;
         };
     };
