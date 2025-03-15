@@ -22,7 +22,7 @@
         };
         combo_layer_kp {
             timeout-ms = <75>;
-            key-positions = <4 5>;
+            key-positions = <14 15>;
             bindings = <&mo 2>;
         };
     };
