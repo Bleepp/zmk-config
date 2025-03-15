@@ -14,16 +14,19 @@
             timeout-ms = <75>;
             key-positions = <15 16>;
             bindings = <&mo 1>;
+            slow-release;
         };
         combo_layer_r {
             timeout-ms = <75>;
             key-positions = <19 20>;
             bindings = <&mo 1>;
+            slow-release;
         };
         combo_layer_kp {
             timeout-ms = <75>;
             key-positions = <14 15>;
             bindings = <&mo 2>;
+            slow-release;
         };
     };
 };
